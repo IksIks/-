@@ -10,16 +10,23 @@ namespace Советы
     {
         static void Main(string[] args)
         {
-            string[] sovet = new string[5];
+            string[] sovet = new string[6];
             sovet [0] = "1";
-            sovet [1] = "a";
-            sovet [2] = "b";
-            sovet [3] = "c";
-            sovet [4] = "d";
+            sovet [1] = "2";
+            sovet [2] = "3";
+            sovet [3] = "4";
+            sovet [4] = "5";
+            sovet [5] = "6";
+
 
             Random x = new Random();
-            int a = int.Parse(sovet[0]);
-            Console.WriteLine(a);
+            for (int i = 0; i < sovet.Length; i++)
+            {
+               int a = int.Parse(sovet[i]);
+                Console.WriteLine(a);
+
+            }
+            Console.ReadKey();
         }
     }
 }
