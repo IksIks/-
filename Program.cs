@@ -23,7 +23,6 @@ namespace Советы
             {
                int a = int.Parse(sovet[i]);
                 Console.WriteLine(a);
-
             }
             Console.ReadKey();
         }
