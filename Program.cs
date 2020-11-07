@@ -18,7 +18,6 @@ namespace Советы
             sovet [4] = "5";
             sovet [5] = "6";
 
-
             Random x = new Random();
             for (int i = 0; i < sovet.Length; i++)
             {
